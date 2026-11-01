@@ -1,0 +1,17 @@
+SENTIMENT ANALYSIS - IMDB REVIEWS - LSTM RESULTS
+=======================================================
+
+Train: 40000, Test: 10000 (re-split from 50K combined reviews)
+Vocab size: 10000, Max sequence length: 120
+
+Test Accuracy: 84.88%
+Test Loss: 0.3683
+
+              precision    recall  f1-score   support
+
+         neg     0.8757    0.8130    0.8432      5000
+         pos     0.8255    0.8846    0.8540      5000
+
+    accuracy                         0.8488     10000
+   macro avg     0.8506    0.8488    0.8486     10000
+weighted avg     0.8506    0.8488    0.8486     10000
